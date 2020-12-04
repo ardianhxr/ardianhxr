@@ -86,7 +86,7 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;97mSelamat Datang \033[1;92m" +nama+ "\n\033[1;97mJangan maling FB Mantan yaa :)")
 		time.sleep(1)
 		loginSC()
 		
